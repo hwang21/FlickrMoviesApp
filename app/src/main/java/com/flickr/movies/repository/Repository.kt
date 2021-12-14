@@ -4,6 +4,6 @@ import com.flickr.movies.api.ApiService
 
 class Repository(private val apiService: ApiService) {
 
-    suspend fun getData() = apiService.getData("The+Lion+King", "movie", 5)
+    suspend fun getData() = apiService.getData("The Lion King", "movie", 5)
 
 }
